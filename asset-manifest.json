@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rsvp-app/static/css/main.5116d0ce.css",
+    "main.js": "/rsvp-app/static/js/main.f7346dbd.js",
+    "index.html": "/rsvp-app/index.html",
+    "main.5116d0ce.css.map": "/rsvp-app/static/css/main.5116d0ce.css.map",
+    "main.f7346dbd.js.map": "/rsvp-app/static/js/main.f7346dbd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5116d0ce.css",
+    "static/js/main.f7346dbd.js"
+  ]
+}
