@@ -1,0 +1,117 @@
+Timing command: npm install
+------------------------------------------------------------
+
+up to date, audited 1464 packages in 2m
+
+260 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (2 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+real	2m19.109s
+user	0m2.051s
+sys	0m0.334s
+------------------------------------------------------------
+Running strace to check system calls
+------------------------------------------------------------
+./check_system.sh: line 17: strace: command not found
+------------------------------------------------------------
+Monitoring system resources with top
+------------------------------------------------------------
+invalid option or syntax: -b
+top usage: top
+		[-a | -d | -e | -c <mode>]
+		[-F | -f]
+		[-h]
+		[-i <interval>]
+		[-l <samples>]
+		[-ncols <columns>]
+		[-o <key>] [-O <secondaryKey>]
+			keys: pid (default), command, cpu, cpu_me, cpu_others, csw,
+				time, threads, ports, mregion, mem, rprvt, purg, vsize, vprvt,
+				kprvt, kshrd, pgrp, ppid, state, uid, wq, faults, cow, user,
+				msgsent, msgrecv, sysbsd, sysmach, pageins, boosts, instrs, cycles
+		[-R | -r]
+		[-S]
+		[-s <delay>]
+		[-n <nprocs>]
+		[-stats <key(s)>]
+		[-pid <processid>]
+		[-user <username>]
+		[-U <username>]
+		[-u]
+
+------------------------------------------------------------
+Checking I/O statistics
+------------------------------------------------------------
+iostat: illegal option -- x
+usage: iostat [-CUdIKoT?] [-c count] [-n devs]
+	      [-w wait] [drives]
+------------------------------------------------------------
+Running npm install with verbose logging
+------------------------------------------------------------
+npm verbose cli /Users/juleseulalie/.nvm/versions/node/v18.18.2/bin/node /Users/juleseulalie/.nvm/versions/node/v18.18.2/bin/npm
+npm info using npm@10.8.2
+npm info using node@v18.18.2
+npm verbose title npm install
+npm verbose argv "install" "--loglevel" "verbose"
+npm verbose logfile logs-max:10 dir:/Users/juleseulalie/.npm/_logs/2024-08-30T02_47_58_070Z-
+npm verbose logfile /Users/juleseulalie/.npm/_logs/2024-08-30T02_47_58_070Z-debug-0.log
+npm http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 591ms
+npm http fetch GET 200 https://registry.npmjs.org/postcss 39ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/nth-check 69ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/css-select 29ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/resolve-url-loader 37ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/svgo 35ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/react-scripts 30ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/@svgr%2fplugin-svgo 50ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/@svgr%2fwebpack 50ms (cache revalidated)
+
+up to date, audited 1464 packages in 2s
+
+260 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (2 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+npm verbose cwd /Users/juleseulalie/Documents/rsvp-app
+npm verbose os Darwin 23.6.0
+npm verbose node v18.18.2
+npm verbose npm  v10.8.2
+npm verbose exit 0
+npm info ok
+------------------------------------------------------------
+Checking network performance
+------------------------------------------------------------
+PING google.com (142.250.178.142): 56 data bytes
+64 bytes from 142.250.178.142: icmp_seq=0 ttl=116 time=7.330 ms
+64 bytes from 142.250.178.142: icmp_seq=1 ttl=116 time=8.272 ms
+64 bytes from 142.250.178.142: icmp_seq=2 ttl=116 time=7.123 ms
+64 bytes from 142.250.178.142: icmp_seq=3 ttl=116 time=6.361 ms
+
+--- google.com ping statistics ---
+4 packets transmitted, 4 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 6.361/7.272/8.272/0.681 ms
+------------------------------------------------------------
+perf not installed. Skipping perf profiling.
+------------------------------------------------------------
+Collecting environment information
+------------------------------------------------------------
+Need to install the following packages:
+envinfo@7.13.0
+Ok to proceed? (y) 
+yes
+  System:
+    OS: macOS 13.3.1
+    CPU: (4) x64 Intel(R) Core(TM) i9-9980HK CPU @ 2.40GHz
+    Memory: 16.00 GB / 16.00 GB
+    Shell: 5.8.1 - /bin/zsh
