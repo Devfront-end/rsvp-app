@@ -1,1 +1,4 @@
 node_modules
+dist/
+build/
+client/src/__tests__/LoginPage.test.js
